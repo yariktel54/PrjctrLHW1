@@ -109,22 +109,4 @@
         grid-template-columns: 1fr;
         width: 100vw;
     }
-    /* html {
-        display: flex;
-        width: 100%;
-    } */
-    /* .image_container {
-        display: flex;
-        justify-content: center;
-        flex-direction: column
-    } */
-    /* .lil_pic {
-        position: absolute;
-        bottom: -100px;
-        right: 0;
-    } */
-    /* .images {
-        position: relative;
-        margin-right: 0;
-    } */
 }
