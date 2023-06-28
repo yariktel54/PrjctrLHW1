@@ -1,0 +1,130 @@
+.block {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.text {
+    margin-top: 87px;
+}
+.heading {
+    width: auto;
+    color: #000;
+    font-size: 60px;
+    font-family: Ogg;
+    font-weight: normal;
+    line-height: 64px;
+    margin: 0px 28px 0px 0px;
+}
+.green {
+    color: #71870E;
+    font-size: 60px;
+    font-family: Ogg;
+    font-weight: normal;
+    line-height: 64px;
+}
+.bold_and_italic {
+    color: #000;
+    font-size: 60px;
+    font-family: Ogg;
+    line-height: 64px;
+    font-weight: bold;
+    font-style: italic;
+}
+.black {
+    color: #000;
+    font-size: 16px;
+    font-family: TradeGothic LT Extended;
+    line-height: 28px;
+    margin: 0px;
+}
+.text_small {
+    margin-top: 100px;
+    margin-left: 150px;
+}
+.images {
+    position: relative;
+    margin-right: 150px;
+}
+.pic {
+    width: 464px;
+    height: 634px;
+}
+.lil_pic {
+    position: absolute;
+    bottom: 100px;
+    right: -130px;
+}
+.rm {
+    width: 225px;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-left: 22px;
+}
+.rm_p_s {
+    color: #CD9A3D;
+    font-size: 16px;
+    font-family: TradeGothic LT Extended;
+    line-height: 24px;
+    margin: 0px 0px 0px 31px;
+}
+.rm_p_f {
+    color: #D0A049;
+    font-size: 96px;
+    font-family: Ogg;
+    font-weight: 300;
+    line-height: 100px;
+    width: 96px;
+    height: 71px;
+    margin: 0px;
+}
+@media screen and (max-width: 900px) {
+    .text_small {
+        margin: 100px 0px 0px 0px;
+        display: flex;
+        justify-content: center;
+        /* align-items: flex-start; */
+    }
+    .black {
+        color: #000;
+        font-size: 16px;
+        font-family: TradeGothic LT Extended;
+        line-height: 28px;
+        margin: 0px;
+        width: 396px;
+    }
+    .text {
+        margin: 0px auto 100px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .heading {
+        width: auto;
+    }
+    .block {
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 100vw;
+    }
+    /* html {
+        display: flex;
+        width: 100%;
+    } */
+    /* .image_container {
+        display: flex;
+        justify-content: center;
+        flex-direction: column
+    } */
+    /* .lil_pic {
+        position: absolute;
+        bottom: -100px;
+        right: 0;
+    } */
+    /* .images {
+        position: relative;
+        margin-right: 0;
+    } */
+}
